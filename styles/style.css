@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #6D6F71;
+    
+}
+
+
+
+#nombre, #mail, #asunto {
+    margin-right: 30px;
+    margin-top: 10px;
+
+    
+}
+
+#correo {
+    padding: 8px 25px;
+    resize: none;
+}
+
+.espacios {
+    padding: 1.5px 8px;
+    resize: none;
+}
+
+.formulario {
+    display: flex;
+}
+
+#mensaje {
+    padding-top: 40px;
+}
+
+#mensajetxt {
+    padding: 125px 235px;
+}
+
+#btn {
+    margin-top: 60px;
+    padding: 8px;
+    background-color: #2A80B9;
+    color: white;
+}
