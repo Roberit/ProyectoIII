@@ -13,46 +13,49 @@
 </head>
 <body>
 
+  <div id="contenido">
     <h1>Formulario De Contacto</h1>
 
     <a>Enviar un correo electrónico. Todos los campos con el asterisco (*) son obligatorios.</a>
 
     
-  <div class="formulario">
-     <div id="nombre">
-    
-        <a>Nombre*</a>
-        <br>
-        <textarea required minlength="3" maxlength="20" class="espacios"></textarea>
-    
-    
-     </div>
-    
-     <div id="mail">
-    
-        <a>Correo Electrónico*</a>
-        <br>
-        <input required type="email" id="correo">
-    
+
+    <div class="formulario">
+       <div id="nombre">
+      
+          <a>Nombre*</a>
+          <br>
+          <textarea required minlength="3" maxlength="20" class="espacios"></textarea>
+      
+      
+       </div>
+      
+       <div id="mail">
+      
+          <a>Correo Electrónico*</a>
+          <br>
+          <input required type="email" id="correo">
+      
+      </div>
+  
+      <div id="asunto">  
+          <a>Asunto*</a>
+          <br>
+          <textarea required minlength="5" maxlength="50" class="espacios"></textarea>
+      </div>  
+  
+  
+  
     </div>
-
-    <div id="asunto">  
-        <a>Asunto*</a>
-        <br>
-        <textarea required minlength="5" maxlength="50" class="espacios"></textarea>
-    </div>  
-
-
-
+  
+  <div id="mensaje">
+    <a>Mensaje*</a>
+    <br>
+    <textarea id="mensajetxt"></textarea>
   </div>
-
-<div id="mensaje">
-  <a>Mensaje*</a>
-  <br>
-  <textarea id="mensajetxt"></textarea>
+  
+  <button id="btn">Enviar</button>
 </div>
-
-<button id="btn">Enviar</button>
 
 </body>
 </html>
